@@ -1,0 +1,22 @@
+
+.main{
+    float: left;
+    width: 25%;
+
+}
+.container{
+    margin: 2%;
+    padding: 2%;
+    height: auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    text-align: center;
+    background-color: aqua;
+    border-radius: 2%;
+}
+.container:hover {
+    /*z-index: 2;
+    position: relative;
+    width: 300px;*/
+    transform: scale(1.1);
+}
+
