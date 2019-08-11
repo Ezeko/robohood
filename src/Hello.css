@@ -1,0 +1,9 @@
+div{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+#greet{
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+}
