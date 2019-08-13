@@ -3,23 +3,48 @@
     .main{
         float: left;
         width: 100%;
-    
-    }}
+        text-align: center;
+    }
+    .app{
+        text-align: center;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
     /* tablet*/
 @media (max-width: 720px){
     .main{
         float: left;
         width: 50%;
+        text-align: center;
     
-    }}
+    }
+    .app{
+        text-align: center;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+}
     /* big sreens*/
 @media (min-width: 1000px){
     .main{
         float: left;
         width: 25%;
+        text-align: center;
+    }
+    .app{
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 
+#search{
+    width:60%;
+    height: 40px;
+    background-color: rgb(161, 219, 252);
+}
 .container{
     margin: 2%;
     padding: 2%;
