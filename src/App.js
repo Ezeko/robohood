@@ -37,10 +37,10 @@ class App extends Component {
         const filteredRobots = this.state.robots.filter(robots=>{
             return robots.name.toLowerCase().includes(this.state.SearchField.toLowerCase());}) 
                   
-    /*if (this.state.robots.length ===0){
+    if (this.state.robots.length ===0){
                 return(<h1 className="loading">loading...</h1>);
                }
-    else{   */  
+    else{   
         return(
          //if still loading  
             <div className="app">
